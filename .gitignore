@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Node/npm artifacts (if ever used)
+node_modules/
+
+# Static site build/deploy artifacts
+public/assets/dist/css/*.map
+public/assets/dist/js/*.map
+
+# Ignore audio and XML files in public/blog (if not versioned)
+public/blog/*.mp3
+public/blog/*.xml
+
+# Ignore log files
+*.log
+
+# End of file

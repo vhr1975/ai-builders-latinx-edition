@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Podcast website example" />
+    <meta name="author" content="Your Podcast Name" />
+    <title>Your Podcast Name</title>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="blog.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="border-bottom lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="link-secondary" href="#">Subscribe</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Your Podcast</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-secondary" href="#">RSS</a>
+          </div>
+        </div>
+      </header>
+      <main class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+          <div class="col-lg-6 px-0">
+            <h1 class="display-4 fst-italic">Welcome to Your Podcast!</h1>
+            <p class="lead my-3">A show about tech, creativity, and more. Listen to our latest episodes below.</p>
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary-emphasis">Episode</strong>
+                <h3 class="mb-0">Episode 1: The Beginning</h3>
+                <div class="mb-1 text-body-secondary">Sep 1, 2025</div>
+                <p class="card-text mb-auto">Kickoff episode! Meet the hosts and learn what this podcast is all about.</p>
+                <audio controls style="width:100%; margin-top:10px;">
+                  <source src="episode1.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+                <a href="episode1.html" class="icon-link gap-1 icon-link-hover stretched-link">Show notes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis">Episode</strong>
+                <h3 class="mb-0">Episode 2: Deep Dive</h3>
+                <div class="mb-1 text-body-secondary">Sep 8, 2025</div>
+                <p class="card-text mb-auto">We explore a trending topic in depth with a special guest.</p>
+                <audio controls style="width:100%; margin-top:10px;">
+                  <source src="episode2.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+                <a href="episode2.html" class="icon-link gap-1 icon-link-hover stretched-link">Show notes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+        <p>Podcast website built with Bootstrap. Hosted on Cloudflare Pages.</p>
+        <p class="mb-0"><a href="#">Back to top</a></p>
+      </footer>
+    </div>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
