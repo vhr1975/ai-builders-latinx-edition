@@ -1,3 +1,13 @@
+/* Make latest episode tile look clickable and darken on hover */
+/* Make latest episode tile look clickable and darken on hover */
+.latest-episode a {
+  display: block;
+  border-radius: 8px 8px 0 0;
+  transition: background 0.2s;
+}
+.latest-episode a:hover .latest-card {
+  background: #34424b;
+}
 /* Highlight episode card link on hover */
 .episodes-grid .episode-card a {
   transition: background 0.2s, box-shadow 0.2s;
