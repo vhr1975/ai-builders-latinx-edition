@@ -1,3 +1,14 @@
+/* Highlight episode card link on hover */
+.episodes-grid .episode-card a {
+  transition: background 0.2s, box-shadow 0.2s;
+  border-radius: 8px;
+}
+.episodes-grid .episode-card a:hover {
+  background: #f5f7fa;
+  box-shadow: 0 2px 12px rgba(66, 85, 99, 0.10);
+  text-decoration: none;
+  cursor: pointer;
+}
 /* Latest Episode Card */
 .latest-episode {
   background: none;
@@ -17,7 +28,7 @@
   padding: 12px 24px 10px 24px;
   text-transform: uppercase;
   margin-bottom: 0;
-  border-bottom: 2px solid #e65c0d;
+  border-bottom: 2px solid #00bfff;
 }
 .latest-card {
   background: #425563;
@@ -49,7 +60,7 @@
   color: #e0e6ea;
 }
 .download-btn {
-  background: #ff6600;
+  background: #00bfff;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -67,11 +78,11 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .download-btn:hover {
-  background: #e65c0d;
+  background: #0077b6;
 }
 .latest-underline {
   height: 8px;
-  background: #ff6600;
+  background: #00bfff;
   border-radius: 0 0 8px 8px;
   margin: 0;
 }
@@ -94,7 +105,7 @@
   min-height: 180px;
 }
 .episode-card h3 {
-  color: #ff6600;
+  color: #0077b6;
   font-size: 1.6em;
   font-family: 'Montserrat', Arial, sans-serif;
   font-weight: 400;
