@@ -1,3 +1,9 @@
+.latest-title:hover {
+  background: #00bfff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
 /* Make latest episode tile look clickable and darken on hover */
 /* Make latest episode tile look clickable and darken on hover */
 .latest-episode a {
@@ -6,7 +12,16 @@
   transition: background 0.2s;
 }
 .latest-episode a:hover .latest-card {
-  background: #34424b;
+  background: #00bfff;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.18);
+  border: 2px solid #0077b6;
+  transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+.latest-episode a:hover .latest-card .meta,
+.latest-episode a:hover .latest-card .desc,
+.latest-episode a:hover .latest-card h3 {
+  color: #fff;
 }
 /* Highlight episode card link on hover */
 .episodes-grid .episode-card a {
@@ -14,10 +29,13 @@
   border-radius: 8px;
 }
 .episodes-grid .episode-card a:hover {
-  background: #f5f7fa;
-  box-shadow: 0 2px 12px rgba(66, 85, 99, 0.10);
+  background: #00bfff;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.18);
+  border: 2px solid #0077b6;
   text-decoration: none;
   cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
 }
 /* Latest Episode Card */
 .latest-episode {
